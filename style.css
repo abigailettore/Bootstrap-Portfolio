@@ -185,11 +185,20 @@ body {
     opacity: .7;
   }
   
-  .row.my-row{
+  /* .row.my-row{
     border: 5px solid red;
-   
-  }
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto; */
 
+  }
+  .port-image{
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
   .my-column {
     border: 0px;
     padding: 0px;
@@ -203,10 +212,12 @@ body {
   
   /* This is the only class you should need */
   .my-banner {
-    bottom: 0px;
+    bottom: 20px;
     border: 0px;
-    padding: 0px;
-    width: 200px;
+    padding: 15px;
+    width: 100%;
+    font-weight: 300;
+    line-height: 30px;
     background-color: #4aaaa5;
     border: 5px solid #4aaaa5;
     color: white;
